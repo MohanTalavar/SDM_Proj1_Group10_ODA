@@ -106,10 +106,10 @@ functionalities, makes it an ideal solution for booking, rescheduling, and cance
 appointments.
 For E-R Diagram
 Business Entities:
-1. Patient: patient id, name, phone number, address.
-2. Doctor: doctor id, name, specialization, rating, email.
-3. Appointment: appointment id, patient id, doctor id, appointment date, time.
-4. Lab Test: test id, patient id, test name.
+1. Patient: patient id, name, phone number, email, password.
+2. Doctor: doctor id, name, specialization, rating, email, password.
+3. Appointment: appointment id, patient id, doctor id, test id, appointment date, time.
+4. Lab Test: test id, test name.
 Functional operations List:
  validate user
  change password
