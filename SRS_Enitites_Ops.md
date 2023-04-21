@@ -85,6 +85,41 @@ System will maintain a wish list of doctors' for patients. The patient will be a
 If there is high load of patients who are booking there appointments then system will be efficient enough to handle all the patients and their appointments with same response time.  
 + Safety:  
 Online appointment portal will be secure from malicious attack, fishing.
+<<<<<<< HEAD:SRS Doc.md
+Online appointment portal functionalities are protected from outside with proper firewall 
+configuration.
+Conclusion:
+The e-Hospital Appointment System is an essential tool for patients and doctors to efficiently 
+manage appointments in hospitals. The system's user-friendly interface, coupled with its robust 
+functionalities, makes it an ideal solution for booking, rescheduling, and cancelling 
+appointments.
+For E-R Diagram
+Business Entities:
+1. Patient: patient id, name, phone number, email, password.
+2. Doctor: doctor id, name, specialization, rating, email, password.
+3. Appointment: appointment id, patient id, doctor id, test id, appointment date, time.
+4. Lab Test: test id, test name.
+Functional operations List:
+ validate user
+ change password
+ forgot password
+ get user details
+ Login
+ Logout
+ Notify the patient about the availability of the doctor.
+ Appointment Tracking by patient
+ Request for an appointment
+ search for doctors based on name
+ cancellation of appointment by the doctor
+ cancellation of appointment by the patient
+ Rescheduling request of an appointment by patient
+ Appointment Reminders:
+ book a lab test
+ view medical records
+ maintain a waiting list
+ update doctor’s availability status
+ online payment for appointments and lab tests
+=======
 Online appointment portal functionalities are protected from outside with proper firewall configuration.  
 Conclusion:  
 The e-Hospital Appointment System is an essential tool for patients and doctors to efficiently manage appointments in hospitals. The system's user-friendly interface, coupled with its robust functionalities, makes it an ideal solution for booking, rescheduling, and cancelling appointments.  
@@ -115,3 +150,4 @@ The e-Hospital Appointment System is an essential tool for patients and doctors 
 * maintain a waiting list
 * update doctor’s availability status
 + online payment for appointments and lab tests
+>>>>>>> bee686a24bcb50b4cae775e5b8ebd22b50e5f3d7:SRS_Enitites_Ops.md
