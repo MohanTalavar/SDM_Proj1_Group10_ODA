@@ -1,6 +1,6 @@
 ># SRS Doctors Appoinment
 
-**Document:** System Requirement Specification Document
+**Document:** Software Requirement Specification Document
 
 **Title:** Online Doctor Appointment System Document.  
    
